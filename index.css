@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+}
+
+.tuna {
+    margin-top: -100px;
+}
+
+.paw {
+    transition: transform .25s ease-in;
+}
+
+.active .paw {
+    transform: translateX(100px);
+}
+
+.ball {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    top: 41%;
+    left: 20%;
+    transition: transform 1s ease-in;
+}
+
+.active .ball {
+    transform: translateX(200px);
+}
